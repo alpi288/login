@@ -23,7 +23,7 @@ session_start()
   
   <!-- Konten -->
 <div class="global-container">
-      <div class=" card register-form mt-3 mb-3">
+      <div class=" card register-form mt-3 mb-5">
         <div id="Card">
           <div id="card-content">
             <div id="card-title">
@@ -73,7 +73,7 @@ session_start()
     </div>
 
 <!-- Footer -->
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar fixed-bottom navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Copyright &copy; ALFI </a>
   </div>
