@@ -27,7 +27,7 @@ $q_edit=mysqli_query($koneksi, $sql_edit);
   </nav>
 
 <!-- Konten -->
-<div class="card mt-3 mb-5 ms-3 me-3">
+<div class="card mt-5 mb-5 ms-3 me-3">
     <div class="card-body">
     <h5 class="card-title">EDIT</h5>
     <?php
