@@ -1,0 +1,115 @@
+html,
+body {
+    /* height: 100%; */
+    background: -webkit-linear-gradient(bottom,#5758BB,#38ada9);
+    background-repeat: no-repeat ;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.login-form{
+    width: 380px;
+    height: 450px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.register-form{
+    width: 380px;
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+label{
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+}
+.form{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border{
+    height: 1px;
+    width: 100%;
+    background: #12CBC4;
+}
+.form-border:focus {
+    height: 1px;
+    width: 100%;
+    background: #12CBC4;
+}
+.form-content{
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    /* padding-top: 14px; */
+}
+.form-control{
+    border: 1px solid #12CBC4;
+    border-radius: 5px;
+    margin-bottom: px;
+}
+.underline-title{
+    background: -webkit-linear-gradient(right,#5758BB,#38ada9);
+    height: 1px;
+    margin: -2rem auto 0 auto;
+    width: 100px;
+}
+#card{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+}
+#card-content{
+    padding: 12px 44px;
+
+}
+#card-title{
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 23px;
+    padding-top: 0%;
+    text-align: center;
+}
+#signup{
+    color: #3498db;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+#submit-btn{
+    background: -webkit-linear-gradient(bottom,#5758BB,#38ada9);
+    border-radius: 21px;
+    border: none;
+    box-shadow: 0px 1px 8px #ffffff;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 25px;
+    transition: 0.25s;
+    width: 153px;
+
+}
+#submit-btn:hover{
+    box-shadow: 0px 1px 8px #ffffff;
+}
+.login-register-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+}
