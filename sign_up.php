@@ -15,7 +15,7 @@ session_start()
 </head>
 <body>
   <!-- Navigasi -->
-  <nav class="navbar fixed-top navbar-dark bg-dark">
+  <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1">HELLOWS</span>
     </div>
@@ -23,7 +23,7 @@ session_start()
   
   <!-- Konten -->
 <div class="global-container">
-      <div class=" card register-form">
+      <div class=" card register-form mt-3 mb-3">
         <div id="Card">
           <div id="card-content">
             <div id="card-title">
@@ -73,7 +73,7 @@ session_start()
     </div>
 
 <!-- Footer -->
-<nav class="navbar fixed-bottom navbar-dark bg-dark">
+<nav class="navbar navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Copyright &copy; ALFI </a>
   </div>

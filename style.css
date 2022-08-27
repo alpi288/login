@@ -1,9 +1,9 @@
 html,
 body {
-    /* height: 100%; */
+    height: auto;
     background: -webkit-linear-gradient(bottom,#5758BB,#38ada9);
-    background-repeat: no-repeat ;
-    width: 100%;
+    background-repeat:no-repeat ;
+    width: auto;
 }
 a{
     text-decoration: none;
